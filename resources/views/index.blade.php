@@ -17,9 +17,9 @@
 
  	<!-- CSS
    ================================================== -->
-   <link rel="stylesheet" href="../css/base.css">
-   <link rel="stylesheet" href="../css/main.css">
-   <link rel="stylesheet" href="../css/vendor.css">
+   <link rel="stylesheet" href="{{asset('css/base.css')}}">
+   <link rel="stylesheet" href="{{asset('css/main.css')}}">
+   <link rel="stylesheet" href="{{asset('css/vendor.css')}}">
 
    <!-- script
    ================================================== -->
@@ -43,20 +43,9 @@
    			<a class="menu-toggle" href="#"><span>Menu</span></a>
 
 	   		<div class="logo">
-		         <a href="index.html">KARDS</a>
+		         <a href="index.blade.php">KARDS</a>
 		      </div>
 
-		   	<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
-						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
-						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>
-						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>
-						<li><a href="styles.html" title="">Style Demo</a></li>
-					</ul>
-				</nav>
    		</div> <!-- /top-bar -->
 
    	</div> <!-- /row -->
@@ -73,12 +62,12 @@
 
    			<div class="col-twelve">
 
-	   			<h5>Hello, World.</h5>
-	   			<h1>I'm Juan Dela Cruz.</h1>
+	   			<h5>Hola, Mundo.</h5>
+	   			<h1>Soy Yonisoloyoni.</h1>
 
 	   			<p class="intro-position">
-	   				<span>Front-end Developer</span>
-	   				<span>UI/UX Designer</span>
+	   				<span>Amigo de Yeray</span>
+	   				<span>Y tal vez de rikolino</span>
 	   			</p>
 
 	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
@@ -88,13 +77,6 @@
    		</div>
    	</div> <!-- /intro-content -->
 
-   	<ul class="intro-social">
-         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#"><i class="fa fa-behance"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-      </ul> <!-- /intro-social -->
 
    </section> <!-- /intro -->
 
